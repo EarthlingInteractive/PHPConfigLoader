@@ -1,0 +1,19 @@
+{
+	"name": "earthit/config-loader",
+	"description": "Gives access to structured config values in files or environment variables",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.2",
+		"earthit/php-common": "^1.6.1"
+	},
+	"autoload": {
+		"psr-0": {
+			"EarthIT_": "src/main/php/",
+		}
+	},
+	"autoload-dev": {
+		"psr-0": {
+			"EarthIT_": "src/test/php/"
+		}
+	}
+}
